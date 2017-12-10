@@ -21,20 +21,43 @@ public class logicAndStatement {
 			
 				
 				if(myDreams.length()>15){
-					prln("your name is too long");
+					prln("your name is too much long");
 					
 				}else if(myDreams.length()<3){
 					prln("your name is too short");
 				}
+				//use of switch case using
 				else{
-					if(myDreams.length()==7){
+					switch(myDreams.length()){ //using switch case value assign. like 8.
+					case 7:
 						prln(" You have a lucky name :) ");
-						
-					}else{
-					prln("your name is Okay");
+						break;
+					case 12:
+						prln(" You have a 12 char name :) ");
+						break;
+					case 13:
+						prln(" You have a 13 char  name :) ");
+						break;
+					case 14:
+						prln(" You have a quite long name :) ");
+						break;
+							
+							default:
+								prln("your name is Okay");
+								break;
+					
 					}
 					
 				}
+					
+//					if(myDreams.length()==7){
+//						prln(" You have a lucky name :) ");
+//						
+//					}else{
+//					prln("your name is Okay");
+//					}
+					
+				//}
 				
 			
 				
