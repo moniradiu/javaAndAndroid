@@ -6,23 +6,37 @@ public class loop {
 		int a,b;
 		a=10;
 		b=30;
+		
+		int [] numberArray=new int[100];
+		int i=100;
+		
+		while(i>0){
+			numberArray[i-1]=i-1;
+			i--;
+		}
+		
+		while(i<100){
+			prln("array["+i+"]:"+numberArray[i]);
+			i++;
+		}
+		
 //		calculateNumber(12,14);
 		
-		prln(calculateNumber(a,b));
+		//prln(calculateNumber(a,b));
 		
 
 	}
 	
 	//return type value show.
-	static int calculateNumber(int number1,int number2){
+	/*static int calculateNumber(int number1,int number2){
 		int result=number1+number2;
 		return  result;
 		
 		
-	}
+	}*/
 	//Method create
 		static void prln(Object anyObject){ //this method no returns value.just print value.
-			System.out.println(i);
+			System.out.println(anyObject);
 			
 		}
 		
