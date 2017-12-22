@@ -15,9 +15,22 @@ public class loop {
 			i--;
 		}
 		
-		while(i<100){
-			prln("array["+i+"]:"+numberArray[i]);
-			i++;
+//		while(i<100){
+//			prln("array["+i+"]:"+numberArray[i]);
+//			i++;
+//		}
+		
+		int j=2;
+		do{
+			prln("do-while loop:");
+			prln(j);
+		}
+		while( j<2 && j>0 );
+		
+		while( j<2 && j>0 ){
+			prln("while loop:");
+			prln(j);
+			
 		}
 		
 //		calculateNumber(12,14);

@@ -3,7 +3,7 @@ package app1;
 public class Operator {
 
 	public static void main(String[] args) {
-		// operator useing
+		// operator using
 		
 		short FirstShortNumber;
 		int SecondIntNumber;
